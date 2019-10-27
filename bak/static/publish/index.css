@@ -1,0 +1,40 @@
+.publish-head {
+    width: 80%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    height: 40px;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.publish-btn {
+    width: 80px;
+    height: 30px;
+    border: 1px solid #e14c46;
+    background: #e14c46;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.page-content {
+    width: 80%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+
+.publish-input {
+    display: block;
+    resize: none;
+    width: 100%;
+    border: 1px solid #999;
+    height: 200px;
+    outline: none;
+    padding: 20px;
+    font-size: 18px;
+    box-sizing: border-box;
+}

@@ -1,0 +1,7 @@
+<% list.forEach(function(item) { %>
+
+    <div class="article-item">
+        <a target="__blank" href="<%= `/markdown/${item.id}` %>"> <%= item.title %> </a>
+    </div>
+
+<% }) %>

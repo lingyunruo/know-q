@@ -1,0 +1,48 @@
+
+@import '../../common/index.less';
+
+.login-page {
+    background: url(../../images/login-bg.png) center center no-repeat;
+    background-size: cover;
+    position: relative;
+
+    .login-content-box {
+        width: 360px;
+        background: rgba(255,255,255,1);
+        position: absolute;
+        top: 50%;
+        left: 60%;
+        transform: translateY(-50%);
+        padding: 20px 0;
+
+        .login-title {
+            font-weight: bold;
+            text-align: center;
+            line-height: 50px;
+            font-size: 20px;
+            color: #1890ff;
+        }
+        .login-input-wrapper {
+            width: 80%;
+            margin: 0 auto 16px auto;
+            text-align: center;
+            .login-input {
+                
+            }
+            .login-button {
+                width: 100%;
+            }
+        }
+    }
+    .turn-to-link {
+        width: 80%;
+        text-align: right;
+        margin: 0 auto;
+        .turn-to-register {
+            cursor: pointer;
+            &:hover {
+                color: #1890ff;
+            }
+        }
+    }
+}

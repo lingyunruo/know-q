@@ -1,0 +1,16 @@
+.markdown-table {
+    border-collapse: collapse;
+}
+
+.markdown-table td {
+    border: 1px solid #999;
+    padding: 10px;
+}
+.markdown-table th{
+    border: 1px solid #999;
+}
+
+.markdown-code {
+    background: #000;
+    color: #fff;
+}
