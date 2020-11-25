@@ -31,7 +31,7 @@
     "dono-server": "0.0.5",
     "ejs": "^2.6.2",
     "express": "^4.17.1",
-    "highlight.js": "^9.15.10",
+    "highlight.js": "^10.1.2",
     "jquery": "^3.4.1",
     "less": "^3.9.0",
     "less-loader": "^5.0.0",
